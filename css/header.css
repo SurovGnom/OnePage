@@ -1,0 +1,147 @@
+
+
+.header__row{
+
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+
+}
+
+.header__string{
+    display: flex;
+}
+.header__block{
+    position: relative;
+    bottom: 33em;
+    left: 3em;
+
+
+
+}
+.header__sidetext{
+    position: absolute;
+    top: 15em;
+}
+.header__pack{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 32em;
+    left: 6em;
+    width: 18%;
+}
+.header__fig{
+    color: #090A0C;
+
+
+}
+.header__f{
+    position: absolute;
+    top: 41%;
+    left: 3em;
+}
+.header__name{
+    font-size: 24px;
+    line-height: 135%;
+    color: #F7F7F7;
+}
+.header__desc{
+    font-size: 15px;
+    line-height: 140%;
+    color: #D9D9D9;
+}
+.header__p{
+    font-size: 27px;
+    line-height: 85%;
+    color: #CEB691;
+}
+.header__uppercase{
+    font-size: 42px;
+    line-height: 130%;
+    color: #F7F7F7;
+    margin-top: 37px;
+    width: 578px;
+}
+.header__choice {
+    font-size: 17px;
+    line-height: 160%;
+    color: #EBEBEB;
+    margin-top: 47px;
+    width: 80%;
+}
+.header__hint{
+    width: 19em;
+    font-size: 15px;
+    line-height: 140%;
+    color: #BFBFBF;
+}
+.header__category{
+    font-size: 15px;
+    line-height: 135%;
+    color: #F7F7F7;
+}
+.header__info-block{
+    display: flex;
+    gap:35px;
+}
+.header__info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.header__guide{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    margin-top: 51px;
+
+}
+.header__button{
+    background-color: #C3A473;
+    border-radius: 7px;
+    padding: 15px 42px;
+    font-size: 17px;
+    line-height: 135%;
+    color: #080707;
+
+}
+.header__bottom-block{
+ padding-top: 147px;
+
+}
+.header__oval{
+    position: absolute;
+    bottom: 40em;
+    left: 5em;
+    z-index: 1;
+}
+
+
+
+
+    .header__oval--big{
+        position: absolute;
+        top: 18%;
+        right: 65%;
+    }
+    .header__oval--middle{
+        position: absolute;
+        left: 7%;
+        top: 28%;
+    }
+    .header__oval--small{
+        position: absolute;
+        top: 37%;
+        left: 3em;
+    }
+
+    @media(min-width:1500px){
+        .header__oval--big{
+            position: absolute;
+            top: 18%;
+            right: 69%;
+        }
+    }
+ 
